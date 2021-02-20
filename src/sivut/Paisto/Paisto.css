@@ -37,7 +37,7 @@
 .laatikko {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15px, 1fr, 1fr, 1fr, 15px, 1000px;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr, 15px, 1000px;
   grid-auto-rows: minmax(15px, auto) ;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -48,6 +48,7 @@
   margin-left: 0.5vw;
   font-size: 30px;
   grid-column: 1 / -1;
+  grid-row: 2;
 }
 .otsikko2 {
   margin-left: 0.5vw;
@@ -101,37 +102,37 @@ p {
   }
   .otsikko1 {
     grid-column: 1 / 2;
-    grid-row: 1;
+    grid-row: 2;
     font-size: 24px;
   }
   .tavara1 {
     grid-column: 1 / 2;
-    grid-row: 2;
+    grid-row: 3;
     font-size: 16px;
     margin-bottom: 0px
   }
   .uuni {
     grid-column: 1 / 2;
-    grid-row: 4;
+    grid-row: 1;
   }
   .pitsauuni {
     grid-column: 1 / 2;
-    grid-row: 8;
+    grid-row: 7;
   }
   .otsikko2 {
     margin-top: 10px;
     grid-column: 1 / 2;
-    grid-row: 5;
+    grid-row: 4;
     font-size: 24px;
   }
   .tavara2 {
     grid-column: 1 / 2;
-    grid-row:6;
+    grid-row:5;
     font-size: 16px;
   }
   .tavara3 {
     grid-column: 1 / 2;
-    grid-row: 7;
+    grid-row: 6;
     font-size: 16px;
   }
 }

@@ -8,7 +8,7 @@ export const PaistoPohja = () => {
     <div className='laatikko'>
       <h3 className='otsikko'>Pitsan paistaminen</h3>
 
-      <div  className='uuni'><img src={uuni} alt='uuni'/></div>
+     
 
       <p className='tavara1'> Pitsa paistetaan perinteisesti puulämmitteisessä uunissa, 
       mutta kotioloissa sen paistaminen onnistuu myös tavallisessa uunisessa. Jos pohjasta
@@ -25,7 +25,7 @@ export const PaistoPohja = () => {
       Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
       tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
       pellentesque.</p>
-
+      <div  className='uuni'><img src={uuni} alt='uuni'/></div>
       <p className='tavara2'> Vivamus ut consequat turpis. Proin neque velit, 
       ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
       Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
