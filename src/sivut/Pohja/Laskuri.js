@@ -22,7 +22,7 @@ export const Laskuri = () => {
     <div className='perkele'>
       <form onSubmit={handleSubmit} >
         <div>
-				Haluamasi pitsojen määrä: <input onChange = {(e) => setNumero(e.target.value.replace(/\D/,''))} value = {numero}></input>
+				Haluamasi pitsojen määrä: <input type='number' onChange = {(e) => setNumero(e.target.value.replace(/\D/,''))} value = {numero}></input>
             <button type='submit'>Laske resepti</button>
 			  </div>
       </form>
