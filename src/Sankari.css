@@ -21,3 +21,12 @@
   color: black;
   background: rgba(204, 204, 204, 0)
 }
+
+@media (max-width:1000px) {
+  .sankariotsa{
+    font-size: 60px;
+  }
+  .sankarinena {
+    font-size: 30px;
+  }
+}
