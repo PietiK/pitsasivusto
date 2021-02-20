@@ -8,7 +8,7 @@ export const PaistoPohja = () => {
     <div className='laatikko'>
       <h3 className='otsikko'>Pitsan paistaminen</h3>
 
-      <img src={uuni} alt='uuni' className='uuni'/>
+      <div  className='uuni'><img src={uuni} alt='uuni'/></div>
 
       <p className='tavara1'> Pitsa paistetaan perinteisesti puulämmitteisessä uunissa, 
       mutta kotioloissa sen paistaminen onnistuu myös tavallisessa uunisessa. Jos pohjasta
