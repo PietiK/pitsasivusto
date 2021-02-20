@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  background-color: whitesmoke;
+  border-bottom: 3px solid black;
+}
+
+.navbar-text {
+  background-color: whitesmoke;
+  font-size: 3.5vw;
+  font-weight: 1000;
+  color: black;
+  float:left;
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+  
+}
