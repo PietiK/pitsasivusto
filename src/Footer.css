@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: red;
+  background-color: #222635;
   padding: 10px 0 10px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,7 +7,7 @@
 }
 
 .footer-link {
-background-color: red;
+background-color: #222635;
 grid-column: 1 / 2;
 margin-left: 50px;
 font-size: 20px;
@@ -15,7 +15,8 @@ line-height: 40px;
 }
 
 .footer-text {
-  background-color: red;
+  color: white;
+  background-color: #222635;
 grid-column: 2 / 3;
 font-size: 20px;
 grid-row: 1;

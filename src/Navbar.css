@@ -1,6 +1,6 @@
   
 .navbar {
-  background: #1c2237;
+  background: #222635;
   height: 80px;
   display: flex;
   font-size: 1.2rem;
@@ -87,7 +87,7 @@
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: 60px repeat(4, 100px);
-    background: #1c2237;
+    background: #222635;
     left: 0;
     right: 0;
     opacity: 1;

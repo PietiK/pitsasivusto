@@ -5,8 +5,8 @@ import '../index.css'
 export const Sankari = () => {
   return (
     <div className='sankariloota'>
-      <h1>Pitsa ja sen tekeminen</h1>
-      <h2>Pitsan valmistusohjeet</h2>
+      <h1 className='sankariotsa'>Pitsa ja sen tekeminen</h1>
+      <h2 className='sankarinena'>Pitsan valmistusohjeet</h2>
     </div>
   )
 }
