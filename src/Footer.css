@@ -11,6 +11,7 @@ background-color: red;
 grid-column: 1 / 2;
 margin-left: 50px;
 font-size: 20px;
+line-height: 40px;
 }
 
 .footer-text {

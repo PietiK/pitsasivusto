@@ -1,33 +1,32 @@
 import React from 'react'
 import './Tayte.css'
-import Pepe from '../../kuvat/pepe.jpg'
+import juusto from '../../kuvat/juusto.jpg'
+import kana from '../../kuvat/kana.jpeg'
 
 export const TaytePohja = () => {
   return (
-    <div className='laatikko'>
-      <h3 className='otsikko'>Pitsako vittu</h3>
-      <img src={Pepe} className='pepe'/>
-      <p className='tavara1'> Pizza tai pitsa on yksinkertaisimmassa muodossaan uunissa 
-      paistettu, litteä, usein pyöreä leipä, joka on päällystetty yleensä tomaateilla tai 
-      tomaattikastikkeella, juustolla sekä muilla valinnaisilla täytteillä. 
-      Yleensä kyse on avopiiraasta, mutta myös täytettyjä pizzoja (kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. 
-      Suomalaisissa pizzerioissa juustona käytetään 
-      usein edamjuustoa tai <br/><br/>sinihomejuustoa, mutta käytetään myös mozzarellaa. (lähde: Wikipedia) kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. </p>
-      <p className='tavara2'/>
-      <h3 className='otsikko2'>Pitsako vittu</h3>
-      <img src={Pepe} className='pepe2'/>
-      <p className='tavara3'>sissa pizzerioissa juustona käytetään 
-      usein edamjuustoa tai sinihomejuustoa, mutta käytetään myös mozzarellaa. (lähde: Wikipedia) kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai <br/><br/>joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta</p>
+    <div className='taytelaatikko'>
+      <h3 className='tayteotsikko'>Pitsan täyttäminen</h3>
+      <img src={juusto} className='juusto'/>
+      <p className='taytetavara1'> Pitsapohjan päälle laitetaan useimmiten tomaattikastiketta, juustoa ja jonkinnäköiset
+      täytteet. Täytteiksi voi valita niin lihaa, kuin kasviksiakin, jotku laittavat jopa hedelmiä pitsaan.
+      Eräs hyvin suosittu ja kiistanalainen täyte on ananas. Ympäri maailman väitellään siitä, kuuluuko
+       ananas pitsaan. <br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
+      in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
+      Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
+      in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada. Donec nec nibh elit. Donec egestas diam velit. 
+      Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
+      in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada. </p>
+      <p className='taytetavara2'/>
+      <h3 className='tayteotsikko2'>Paljon vaihtoehtoja</h3>
+      <img src={kana} className='kana'/>
+      <p className='taytetavara3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
+      in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
+      Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
+      in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
+      in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
+      Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
+      in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada.</p>
       
     </div>
   )

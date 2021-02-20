@@ -11,9 +11,7 @@ export const Etusivu = () => {
   return (
     <div className='etusivu-container'>
       <Sankari />
-      <div className='etusivu-item-2'>
-        <Navbar className='navbar' />
-      </div>
+        <Navbar className='etusivu-item-2'/>
       <div className='etusivu-item-3'>
         <OsaKuva className='osakuva'></OsaKuva>
       </div>

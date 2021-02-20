@@ -1,6 +1,6 @@
 .astia {
   display: grid;
-  grid-template-rows: auto auto auto 150px;
+  grid-template-rows: auto auto auto 10px;
   grid-auto-rows: minmax(10px, auto);
 }
 
@@ -20,53 +20,101 @@
 .kolmas {
   background-color: white;
   grid-row: 3;
-}/*
-.grid-item-4 {
-  background-color: burlywood;
-  grid-row: 4;
+}
+.jalka {
+  position: static;
+  left: 0;
+  right: 0;
   bottom: 0;
-}*/
+  grid-row: 4;
+}
 
+/*---------------------laskuri------------*/
+.laskuritausta {
 
+}
+.perkele{
+  color: white;
+  margin-left: 10px;
+  height: 100%;
+  width: 50vw;
+}
+
+.perkele input {
+  width: 98%;
+  height: 50px;
+  font-size: 30px;
+  border-style: groove;
+}
+
+.perkele div {
+  font-size: 28px;
+}
+
+.perkele button {
+  background-color: coral;
+  width: 100%;
+  height: 50px;
+}
+
+.perkele p {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.taustatausta {
+  background-color: red;
+}
+
+.lukutausta {
+  height: 250px;
+  background-color: black;
+}
 /*
 ------------------------------Pohjasivun keskiosa-------------------------------------
 */
 
-.laatikko {
+.pohjalaatikko {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15px, 1fr, 1fr, 15px;
+  grid-template-rows: 15px, 1fr, 1fr, 15px, 1fr, 1fr, 1fr;
   grid-auto-rows: minmax(15px, auto) ;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   padding: 10px;
 }
 
-.otsikko {
+.pohjaotsikko {
   margin-left: 0.5vw;
   font-size: 30px;
   grid-column: 1 / -1;
 }
-.otsikko2 {
+.pohjaotsikko2 {
   margin-left: 0.5vw;
   font-size: 30px;
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 1 / -1;
 }
 
-.tavara1{
-  grid-column: 1 / 3;
+.pohjatavara1{
+  grid-column: 1 / -1;
   grid-row: 2;
   text-align: justify;
   margin-bottom: 20px;
 }
-.tavara2{
-  grid-column: 4 / 5;
-  grid-row: 4;
+.laskuri{
+  grid-column: 4 / -1;
+  grid-row: 3;
 }
 
-.tavara3 {
-  grid-column: 3 / 5;
+.laskurivierus {
+  grid-column: 1 / 4;
+  grid-row: 3;
+}
+
+.pohjatavara3 {
+  grid-column: 4 / -1;
+  grid-row: 5;
 }
 
 img {
@@ -75,9 +123,11 @@ img {
   object-fit: contain;
 }
 
-.pepe {
-  grid-column: 1 / 3;
+.taikina {
+  grid-column: 1 / 4;
+  grid-row:5;
 }
+
 
 p {
   font-size: 22px;
@@ -86,64 +136,51 @@ p {
 }
 
 @media (max-width: 1000px) {
-  .laatikko {
+  .pohjalaatikko
+ {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr, 1fr, 1fr, 1fr 1fr 1fr;
   grid-auto-rows: minmax(15px, auto) ;
-  padding: 10px;
+  grid-gap: 10px;
   }
-  .otsikko1 {
+  .pohjaotsikko1 {
     grid-column: 1 / 2;
     grid-row: 1;
     font-size: 24px;
   }
-  .tavara1 {
+  .pohjatavara1 {
     grid-column: 1 / 2;
     grid-row: 2;
     font-size: 16px;
     margin-bottom: 0px
   }
-  .pepe {
+  .taikina {
     grid-column: 1 / 2;
-    grid-row: 4;
+    grid-row: 9;
   }
-  .otsikko2 {
+  .pohjaotsikko2 {
     margin-top: 10px;
     grid-column: 1 / 2;
-    grid-row: 5;
+    grid-row: 8;
     font-size: 24px;
   }
-  .tavara2 {
+  .laskuri {
     grid-column: 1 / 2;
     grid-row:6;
     font-size: 16px;
   }
-  .tavara3 {
+
+  .laskurivierus {
     grid-column: 1 / 2;
     grid-row: 7;
+    font-size: 16px;
+  }
+
+  .pohjatavara3
+ {
+    grid-column: 1 / 2;
+    grid-row: 10;
+    font-size: 16px;
   }
 }
 
-/*---------------------laskuri------------*/
-.laskuritausta {
-  margin-left: 10px;
-
-}
-.perkele{
-  color: white;
-  margin-left: 10px;
-  height: 200px;
-}
-
-.perkele div {
-  background-color: gold;
-  border-color: black;
-  border-style: solid;
-  width: 200px;
-}
-.perkele input {
-  width: 96%;
-}
-.perkele button {
-  background-color: coral;
-}

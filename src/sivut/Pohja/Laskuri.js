@@ -21,12 +21,12 @@ export const Laskuri = () => {
   return (
     <div className='perkele'>
       <form onSubmit={handleSubmit} >
-        <div>
-				Haluamasi pitsojen määrä: <input inputMode='numeric' onChange = {(e) => setNumero(e.target.value.replace(/\D/,''))} value = {numero}></input>
+        <div className='taustatausta'>
+				Syötä haluamasi pitsojen määrä: <input inputMode='numeric' onChange = {(e) => setNumero(e.target.value.replace(/\D/,''))} value = {numero}></input>
             <button type='submit'>Laske resepti</button>
 			  </div>
       </form>
-      <div>
+      <div className='lukutausta'>
       <p>Jauhoa: {jauho}g</p>
       <p>Vettä: {vesi}g</p>
       <p>Suolaa: {suola}g</p>

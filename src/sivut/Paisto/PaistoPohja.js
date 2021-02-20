@@ -1,55 +1,69 @@
 import React from 'react'
 import './Paisto.css'
-import Pepe from '../../kuvat/pepe.jpg'
+import uuni from '../../kuvat/pitsauuni.jpg'
+import pitsauuni from '../../kuvat/uuni.jpg'
 
 export const PaistoPohja = () => {
   return (
     <div className='laatikko'>
-      <h3 className='otsikko'>Pitsako vittu</h3>
+      <h3 className='otsikko'>Pitsan paistaminen</h3>
 
-      <img src={Pepe} className='pepe'/>
+      <img src={uuni} alt='uuni' className='uuni'/>
 
-      <p className='tavara1'> Pizza tai pitsa on yksinkertaisimmassa muodossaan uunissa 
-      paistettu, litteä, usein pyöreä leipä, joka on päällystetty yleensä tomaateilla tai 
-      tomaattikastikkeella, juustolla sekä muilla valinnaisilla täytteillä. 
-      Yleensä kyse on avopiiraasta, mutta myös täytettyjä pizzoja (kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. 
-      Suomalaisissa pizzerioissa juustona käytetään 
-      usein edamjuustoa tai <br/><br/>sinihomejuustoa, mutta käytetään myös mozzarellaa. (lähde: Wikipedia) kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. </p>
+      <p className='tavara1'> Pitsa paistetaan perinteisesti puulämmitteisessä uunissa, 
+      mutta kotioloissa sen paistaminen onnistuu myös tavallisessa uunisessa. Jos pohjasta
+      haluaa kotonakin hieman enemmän pitseriasta saatavan pitsan tyylisen niin paistamiseen
+      kannattaa käyttää pitsakiveä tai vastaavaa. Kotioloissa uuni kannattaa lämmittää niin kuumaksi
+      kuin se vain menee ja esilämmittää siellä myös pitsakivi, jotta pohja kypsyy nopeasti
+      ja siitä tulee mahdollisimman rapea.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Integer id convallis nulla. Mauris ac diam ut magna consectetur convallis et quis turpis. 
+      Phasellus mi mauris, elementum at porttitor nec, vehicula id felis. Suspendisse lacus mi, 
+      bibendum ut felis ac, consequat laoreet lacus. Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
+      pellentesque.</p>
 
-      <p className='tavara2'>sinihomejuustoa, mutta käytetään myös mozzarellaa. (lähde: Wikipedia) kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta.
-      <br/><br/>joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitustajoskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta
-      <br/><br/>joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitustajoskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta</p>
+      <p className='tavara2'> Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
+      pellentesque.
+      <br/><br/> Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
+      pellentesque.
+      <br/><br/> Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
+      pellentesque.</p>
 
-      <h3 className='otsikko2'>Pitsako vittu</h3>
+      <h3 className='otsikko2'>Väliotsikko taas</h3>
 
-      <img src={Pepe} className='pepe2'/>
+      <img src={pitsauuni} alt='pitsauuni' className='pitsauuni'/>
 
-      <p className='tavara3'>sissa pizzerioissa juustona käytetään 
-      usein edamjuustoa tai sinihomejuustoa, mutta käytetään myös mozzarellaa. (lähde: Wikipedia) kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai <br/><br/>joskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitustajoskus usean juuston sekoitusta. kuten calzone) tunnetaan. 
-      Pizza on kansainvälisesti hyvin tunnettu ja suosittu ruokalaji, ja Suomessa se on suosittu 
-      viikonloppuruoka. Juusto on usein mozzarellaa tai joskus usean juuston sekoitusta
+      <p className='tavara3'> Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
+      pellentesque. <br/><br/> Vivamus ut consequat turpis. Proin neque velit, 
+      ultricies eget commodo ut, consectetur sit amet nunc. Duis mattis eleifend sollicitudin. 
+      Cras eget sagittis felis. Sed non odio quis metus aliquet ultricies vel id ligula. 
+      Nulla vulputate augue non leo auctor vehicula. In maximus nec lacus non consequat. 
+      Proin arcu ipsum, porttitor nec neque in, ultrices dictum elit. Quisque auctor dolor rutrum 
+      tellus mollis tincidunt nec at magna. 
        </p>
       
     </div>
