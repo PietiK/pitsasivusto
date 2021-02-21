@@ -15,7 +15,7 @@ export const PaistoPohja = () => {
       haluaa kotonakin hieman enemmän pitseriasta saatavan pitsan tyylisen niin paistamiseen
       kannattaa käyttää pitsakiveä tai vastaavaa. Kotioloissa uuni kannattaa lämmittää niin kuumaksi
       kuin se vain menee ja esilämmittää siellä myös pitsakivi, jotta pohja kypsyy nopeasti
-      ja siitä tulee mahdollisimman rapea.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      ja siitä tulee mahdollisimman rapea. Pitsaa kannattaa paistaa kunnes juusto on sulanut ja hieman ruskistunut<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Integer id convallis nulla. Mauris ac diam ut magna consectetur convallis et quis turpis. 
       Phasellus mi mauris, elementum at porttitor nec, vehicula id felis. Suspendisse lacus mi, 
       bibendum ut felis ac, consequat laoreet lacus. Vivamus ut consequat turpis. Proin neque velit, 

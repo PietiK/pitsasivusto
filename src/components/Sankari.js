@@ -6,7 +6,7 @@ export const Sankari = () => {
   return (
     <div className='sankariloota'>
       <h1 className='sankariotsa'>Pitsa ja sen tekeminen</h1>
-      <h2 className='sankarinena'>Pitsan valmistusohjeet</h2>
+      <h2 className='sankarinena'>Taikina ja täyte</h2>
     </div>
   )
 }

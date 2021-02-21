@@ -20,8 +20,8 @@ export const OsaPohja = () => {
       <p className='laskurivierus'>Tässä on laskuri, jolla voit laskea kuinka paljon mitäkin ainesosaa
       tarvitset taikinaan. Syötä tekstikenttään kuinka monta pitsaa haluat tehdä ja laskuri
       laskee sinulle reseptin. Laskurin mukaan yhden pitsan suuruisen taikinan paino on 250grammaa. <br/><br/>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
-      in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
+      Sekoita hiiva kädenlämpöiseen veteen, ja anna sen liueta. Tämän jälkeen sekoita muut ainekset nesteeseen ja vaivaa 
+      noin kymmenen minuuttia. Donec nec nibh elit. Donec egestas diam velit. 
       Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
       in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada.Donec nec nibh elit. Donec egestas diam velit. 
       Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
