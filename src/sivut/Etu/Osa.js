@@ -20,7 +20,7 @@ export const OsaKuva = (kuva) => {
       Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 
       in varius purus nibh non erat. Curabitur malesuada id orci eget malesuada.</p>
       <img src={Pepe} className='osapepe'/>
-      <h3 className='osaotsikko2'>Väliotsikko   </h3>
+      <h3 className='osaotsikko2'>Pitsan historiaa   </h3>
       <p className='osatavara2'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
       in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
       Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 

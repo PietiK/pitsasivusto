@@ -48,7 +48,7 @@ export const PaistoPohja = () => {
       tellus mollis tincidunt nec at magna. In sagittis mi ac sapien finibus, nec viverra purus 
       pellentesque.</p>
 
-      <h3 className='otsikko2'>Väliotsikko taas</h3>
+      <h3 className='otsikko2'>Aito pitsauuni</h3>
 
       <img src={pitsauuni} alt='pitsauuni' className='pitsauuni'/>
 

@@ -29,7 +29,7 @@ export const OsaPohja = () => {
       <Laskuri className='laskuri'/>
       
       <img src={taikina} className='taikina'/>
-      <h3 className='pohjaotsikko2'>Pitsataikinaotsikko</h3>
+      <h3 className='pohjaotsikko2'>Pitsapohjan kohotus</h3>
       <p className='pohjatavara3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies faucibus risus, 
       in tempor metus finibus eget. Donec nec nibh elit. Donec egestas diam velit. 
       Integer in finibus mi. In facilisis, dui ut auctor consectetur, orci felis egestas dui, 

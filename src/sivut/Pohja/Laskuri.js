@@ -3,7 +3,7 @@ import './Pohja.css'
 
 export const Laskuri = () => {
   const [numero, setNumero] = useState(0)
-  const [perkele, setPerkele] = useState(0)
+  const [tempnum, settempnum] = useState(0)
   const [jauho, setJauho] = useState(0)
   const [vesi, setVesi] = useState(0)
   const [suola, setSuola] = useState(0)
@@ -11,15 +11,15 @@ export const Laskuri = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();   
-    setPerkele(numero*250)
-    setJauho(perkele * 0.624)
-    setVesi(perkele * 0.356)
-    setSuola(Math.round(perkele * 0.0188 * 100)/100)
-    setHiiva(Math.round(perkele * 0.0012 * 100)/100)
+    settempnum(numero*250)
+    setJauho(tempnum * 0.624)
+    setVesi(tempnum * 0.356)
+    setSuola(Math.round(tempnum * 0.0188 * 100)/100)
+    setHiiva(Math.round(tempnum * 0.0012 * 100)/100)
 }
 
   return (
-    <div className='perkele'>
+    <div className='laskukone'>
       <form onSubmit={handleSubmit} >
         <div className='taustatausta'>
 				Syötä haluamasi pitsojen määrä: <input inputMode='numeric' onChange = {(e) => setNumero(e.target.value.replace(/\D/,''))} value = {numero}></input>
