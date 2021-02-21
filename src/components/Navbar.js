@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink  } from 'react-router-dom';
 import '../Navbar.css';
 import { GiFullPizza } from 'react-icons/gi';
-import { CgMenu } from 'react-icons/cg'
+import { CgFormatUnderline, CgMenu } from 'react-icons/cg'
 import { TiTimes } from 'react-icons/ti';
 import { IconContext } from 'react-icons/lib';
 
@@ -25,20 +25,20 @@ export function Navbar() {
             </div>
             <div className={click ? 'nav-menu active' : 'nav-menu'}>
               <br className='nav-item5'/>
-                <Link exact to='/' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink exact to='/' className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
                 <p className='nav-item nav-item1'>Etusivu</p>
-                </Link>
+                </NavLink>
               
-                <Link to='/pohja' className='nav-links'onClick={closeMobileMenu}>
+                <NavLink to='/pohja' className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
                 <p className='nav-item nav-item2'>Pohja</p>
-                </Link>
-                <Link to='/tayte'className='nav-links' onClick={closeMobileMenu}>
+                </NavLink>
+                <NavLink to='/tayte'className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
                   <p className='nav-item nav-item3'>Täyte</p>
-                </Link>
+                </NavLink>
               
-                <Link to='/paisto' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/paisto' className='nav-links' activeStyle={{color: '#424242'}} onClick={closeMobileMenu}>
                   <p className='nav-item nav-item4'>Paistaminen </p>
-                </Link>
+                </NavLink>
           </div>
           </div>
         </nav>
