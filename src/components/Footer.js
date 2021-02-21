@@ -17,7 +17,7 @@ export const Footer = () => {
         <Link to='/paisto'><p >Paisto</p></Link>
       </div>
       <div className='footer-text'>
-        <p className='kak'>Ota yhteyttä</p>
+        <p className='kak'>Yhteystiedot:</p>
         <p >Pertti Pirjo</p>
         <p >Puh.nro: 0501234567</p>
         <p >email: pitsa@pitseria.fi</p>

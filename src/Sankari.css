@@ -1,5 +1,6 @@
 .sankariloota {
-  background: url('kuvat/pitsa.jpg') center center/cover no-repeat;
+  background: url('kuvat/pitsa.jpg') center center/cover no-repeat ;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
   height: 100vh;
   width: 100%;
   padding: 0 0 0 0;
@@ -13,12 +14,12 @@
 }
 .sankariotsa {
   font-size: 100px;
-  color: black;
+  color: white;
   background: rgba(204, 204, 204, 0)
 }
 .sankarinena {
   font-size: 30px;
-  color: black;
+  color: whitesmoke;
   background: rgba(204, 204, 204, 0)
 }
 
