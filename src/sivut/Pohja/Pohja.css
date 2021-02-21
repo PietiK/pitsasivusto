@@ -33,39 +33,65 @@
 .perkele{
   color: white;
   margin-left: 10px;
+  margin-right: 10px;
   height: 100%;
   width: 50vw;
 }
 
 .perkele input {
-  width: 98%;
+  width: 100%;
+  background-color: white;
   height: 50px;
   font-size: 30px;
   border-style: groove;
+  box-sizing: border-box;
+  border: 5px solid coral;
+  color: black;
+  border-radius: 5px;
 }
 
 .perkele div {
   font-size: 28px;
+  border-radius: 5px;
+  border: 2px solid white;
 }
 
 .perkele button {
-  background-color: coral;
+  background-color: #222635;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  cursor: pointer;
   width: 100%;
+  border-radius: 5px;
   height: 50px;
+}
+.perkele button:hover {
+  background-color: #3a405c;
 }
 
 .perkele p {
   font-size: 30px;
   line-height: 60px;
+
 }
 
 .taustatausta {
-  background-color: red;
+  background-color: #222635;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
+
+
 
 .lukutausta {
   height: 250px;
-  background-color: black;
+  background-color: #222635;
+  padding: 0.5rem;
+  
+}
+
+.lukutausta p {
+  border-bottom: 2px solid coral;
 }
 /*
 ------------------------------Pohjasivun keskiosa-------------------------------------
@@ -156,7 +182,6 @@ p {
     grid-row: 9;
   }
   .pohjaotsikko2 {
-    margin-top: 10px;
     grid-column: 1 / 2;
     grid-row: 8;
     font-size: 24px;
@@ -178,6 +203,9 @@ p {
     grid-column: 1 / 2;
     grid-row: 10;
     font-size: 16px;
+  }
+  .perkele{
+    width: 88vw;
   }
 }
 
