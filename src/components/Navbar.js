@@ -25,18 +25,18 @@ export function Navbar() {
             </div>
             <div className={click ? 'nav-menu active' : 'nav-menu'}>
               <br className='nav-item5'/>
-                <NavLink exact to='/' className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
+                <NavLink exact to='/' className='nav-links' activeStyle={{color: "coral"}} onClick={closeMobileMenu}>
                 <p className='nav-item nav-item1'>Etusivu</p>
                 </NavLink>
               
-                <NavLink to='/pohja' className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
+                <NavLink to='/pohja' className='nav-links' activeStyle={{color: "coral"}} onClick={closeMobileMenu}>
                 <p className='nav-item nav-item2'>Pohja</p>
                 </NavLink>
-                <NavLink to='/tayte'className='nav-links' activeStyle={{color: "#424242"}} onClick={closeMobileMenu}>
+                <NavLink to='/tayte'className='nav-links' activeStyle={{color: "coral"}} onClick={closeMobileMenu}>
                   <p className='nav-item nav-item3'>Täyte</p>
                 </NavLink>
               
-                <NavLink to='/paisto' className='nav-links' activeStyle={{color: '#424242'}} onClick={closeMobileMenu}>
+                <NavLink to='/paisto' className='nav-links' activeStyle={{color: 'coral'}} onClick={closeMobileMenu}>
                   <p className='nav-item nav-item4'>Paistaminen </p>
                 </NavLink>
           </div>
